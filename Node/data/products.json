@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "sample",
+        "description": "description for sample 1"
+    },
+    {
+        "name" : "sample 2",
+        "description": "description for sample 2"
+    }
+]
