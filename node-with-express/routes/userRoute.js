@@ -6,7 +6,10 @@ userroute.param("id", userRoutes.checkForId);
 
 //chaning of middle wares
 
-userroute.route("/").get(userRoutes.getUsers).post(userRoutes.validatePayload ,userRoutes.createUser);
+userroute
+  .route("/")
+  .get(userRoutes.getUsers)
+  .post(userRoutes.validatePayload, userRoutes.createUser);
 
 userroute
   .route("/:id")
